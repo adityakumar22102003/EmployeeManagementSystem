@@ -19,7 +19,7 @@ public class Employee {
     public void displayDetails() {
         System.out.println("Employee ID: " + employeeId);
         System.out.println("Employee Name: " + employeeName);
-        System.out.println("Salary: " + salary);
+        System.out.println("Updated Salary: " + salary);
 
         System.out.println("Department Name: " + dept);
 
