@@ -20,7 +20,7 @@ public class Employee {
         System.out.println("Employee ID: " + employeeId);
         System.out.println("Employee Name: " + employeeName);
         System.out.println("Salary: " + salary);
-        System.out.println("dept: " + dept);
+        System.out.println("Department Name: " + dept);
         System.out.println("Phone Number: " + phoneNumber);
         System.out.println("Address: " + address);
     }
