@@ -3,15 +3,15 @@ public class Employee {
     int employeeId;
     String employeeName;
     double salary;
-    String department;
+    String dept;
     String phoneNumber;
     String address;
 
-    public Employee(int employeeId, String employeeName, double salary, String department, String phoneNumber, String address) {
+    public Employee(int employeeId, String employeeName, double salary, String dept, String phoneNumber, String address) {
         this.employeeId = employeeId;
         this.employeeName = employeeName;
         this.salary = salary;
-        this.department = department;
+        this.dept = dept;
         this.phoneNumber = phoneNumber;
         this.address = address;
     }
@@ -20,7 +20,7 @@ public class Employee {
         System.out.println("Employee ID: " + employeeId);
         System.out.println("Employee Name: " + employeeName);
         System.out.println("Salary: " + salary);
-        System.out.println("Department: " + department);
+        System.out.println("dept: " + dept);
         System.out.println("Phone Number: " + phoneNumber);
         System.out.println("Address: " + address);
     }
