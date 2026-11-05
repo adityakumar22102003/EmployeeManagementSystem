@@ -4,12 +4,16 @@ public class Employee {
     String employeeName;
     double salary;
     String department;
+    String phoneNumber;
+    String address;
 
-    public Employee(int employeeId, String employeeName, double salary, String department) {
+    public Employee(int employeeId, String employeeName, double salary, String department, String phoneNumber, String address) {
         this.employeeId = employeeId;
         this.employeeName = employeeName;
         this.salary = salary;
         this.department = department;
+        this.phoneNumber = phoneNumber;
+        this.address = address;
     }
 
     public void displayDetails() {
@@ -17,10 +21,12 @@ public class Employee {
         System.out.println("Employee Name: " + employeeName);
         System.out.println("Salary: " + salary);
         System.out.println("Department: " + department);
+        System.out.println("Phone Number: " + phoneNumber);
+        System.out.println("Address: " + address);
     }
 
     public static void main(String[] args) {
-        Employee emp = new Employee(101, "John", 45000, "IT");
+        Employee emp = new Employee(101, "John", 45000, "IT", "123-456-7890", "123 Main St");
         emp.displayDetails();
     }
 }
